@@ -21,20 +21,22 @@
 
 
 /* header section */
-header{
+header {
     background: url("../images/banner/banner3.png");
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 100vh;
-    
+
 
 }
-.header-info{
+
+.header-info {
     max-width: 525px;
     padding: 216px 200px 166px 845px;
     text-align: right;
     height: 100%;
 }
+
 .header-title {
     color: rgba(255, 255, 255, 1);
     font-style: Bold;
@@ -48,4 +50,44 @@ header{
     font-size: 16px;
     font-weight: 400;
     margin-bottom: 32px;
+}
+
+/* failure section */
+.my-failures {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1072px;
+    margin: 131px auto;
+    gap: 100px;
+    border: 1px solid blue;
+}
+
+.failure-title {
+    color: var(--Dark 01, rgba(21, 20, 20, 1));
+    font-style: Bold;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+.failure-text {
+    color: var(--Dark 02, rgba(68, 67, 67, 1));
+    font-style: Regular;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 8px;
+}
+
+.list-items {
+    list-style: none;
+    margin-top: 16px;
+}
+
+.list-items li::before {
+    content: "✔";
+    color: #28a745
+}
+.failure-img img{
+    max-width: 451px;
 }
