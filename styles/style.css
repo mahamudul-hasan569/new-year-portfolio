@@ -19,6 +19,16 @@
     border: none;
 }
 
+.btn2 {
+    font-size: 20px;
+    font-weight: 600;
+    padding: 20px 25px;
+    border-radius: 5px;
+    color: white;
+    background-color: #005FAC;
+    border: none;
+}
+
 
 /* header section */
 header {
@@ -163,4 +173,72 @@ header {
     font-size: 40px;
     font-weight: 700;
     margin-bottom: 24px;
+}
+
+/* footer-section */
+footer {
+    background-color: black;
+}
+
+.footer-container {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 130px 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 350px;
+}
+
+
+.footer-info {
+    max-width: 485px;
+
+}
+
+.footer-title {
+    color: rgba(248, 248, 248, 1);
+    font-style: Bold;
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.footer-text {
+    color: rgba(255, 255, 255, 1);
+    font-style: Regular;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 24px;
+
+}
+
+.icon-container {
+    display: flex;
+    gap: 17px;
+}
+
+.form-text {
+    color: rgba(255, 255, 255, 1);
+    font-style: SemiBold;
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 31px;
+}
+
+.footer-form {
+    max-width: 350px;
+}
+
+.your-email input {
+    width: 100%;
+    padding: 14px 18px;
+    font-size: 16px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    margin: 16px 0;
+    background-color: black;
+}
+
+.your-email ::placeholder {
+    color: #F3F3F3;
 }
