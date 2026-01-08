@@ -88,15 +88,18 @@ header {
     content: "✔";
     color: #28a745
 }
-.failure-img img{
+
+.failure-img img {
     max-width: 451px;
 }
+
 /* my plans section */
-.my-plans{
+.my-plans {
     max-width: 1140px;
     margin: 0px auto;
     margin-bottom: 134px;
 }
+
 .plans-title {
     color: var(--Dark 01, rgba(21, 20, 20, 1));
     font-style: Bold;
@@ -105,18 +108,22 @@ header {
     margin-bottom: 50px;
     text-align: center;
 }
-.card-container{
+
+.card-container {
     display: flex;
     gap: 80px;
 }
-.card-img img{
+
+.card-img img {
     max-width: 90px;
 }
-.card-img{
+
+.card-img {
     display: flex;
     justify-content: center;
 }
-.card-title{
+
+.card-title {
     font-size: 30px;
     font-weight: 700;
     color: #151414;
@@ -124,9 +131,36 @@ header {
     margin-bottom: 16px;
     text-align: center;
 }
-.card-text{
+
+.card-text {
     font-size: 25px;
     font-weight: 500;
     color: #737272;
     text-align: center;
+}
+
+/* mindset section */
+.mindset-section {
+    max-width: 1140px;
+    margin: 0px auto;
+    background-size: cover;
+    margin-bottom: 131px;
+    border-radius: 8px;
+    background:
+        linear-gradient(to right,
+            rgba(0, 95, 172, 0.85),
+            rgba(0, 95, 172, 0)),
+        url("../images/watch.png") center/cover no-repeat;
+}
+
+.mindset-section div {
+    padding: 56px 617px 56px 64px;
+}
+
+.mindset-text {
+    color: rgba(255, 255, 255, 1);
+    font-style: Bold;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 24px;
 }
